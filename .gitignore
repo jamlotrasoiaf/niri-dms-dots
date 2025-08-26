@@ -1,1 +1,3 @@
 config/.config/nvim/lazy-lock.json
+config/.config/ghostty/config-dankcolors
+config/.config/niri/dankshell-colors.kdl
