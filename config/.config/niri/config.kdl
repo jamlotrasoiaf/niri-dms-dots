@@ -257,7 +257,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 
 spawn-at-startup "qs" "-c" "dms"
-spawn-at-startup "sh" "-c" "swaybg -i ~/Pictures/swaybg/koi-blur.png"
+spawn-at-startup "sh" "-c" "swaybg -i ~/Pictures/swaybg/cat-vibin-blur.png"
 spawn-at-startup "sh" "-c" "swayidle -w timeout 600 'niri msg action power-off-monitors' timeout 300 'qs -c dms ipc call lock lock' before-sleep 'qs -c dms ipc call lock lock'"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 spawn-at-startup "/usr/lib/policykit-1-pantheon/io.elementary.desktop.agent-polkit"
@@ -670,12 +670,6 @@ gestures {
     hot-corners {
         off
     }
-}
-
-// Put swaybg inside the overview backdrop.
-/-layer-rule {
-    match namespace="^wallpaper$"
-    place-within-backdrop true
 }
 
 // Disable startup hotkey list
