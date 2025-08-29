@@ -397,7 +397,7 @@ binds {
     Mod+Shift+Space {
       spawn "sh" "-c" "killall qs && qs -c dms";
     }
-    Mod+Space hotkey-overlay-title="Application Launcher" {
+    Mod+A hotkey-overlay-title="Application Launcher" {
       spawn "qs" "-c" "dms" "ipc" "call" "spotlight" "toggle";
     }
     Mod+V hotkey-overlay-title="Clipboard Manager" {
